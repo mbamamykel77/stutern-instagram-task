@@ -24,20 +24,21 @@
 
 nav {
   padding-left: 25px;
-  /* border-right: 1px solid #b7b7b7; */
+  border-right: 1px solid #dfdfdf;
   /* height: 100vh; */
   position: fixed;
+  width: 245px;
 }
 
 .flexdirection > a {
   display: flex;
-  flex-direction: row;
   gap: 1rem;
   text-decoration: none;
   color: black;
   margin-bottom: 40px;
   font-size: 18px;
   padding: 5px, 0px;
+  margin-right: 50px;
 }
 
 .logo img {
@@ -50,7 +51,7 @@ nav {
 }
 
 .flexdirection img {
-  width: 3%;
+  width: 10%;
   border-radius: 50px;
 }
 
